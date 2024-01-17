@@ -125,7 +125,7 @@ setInterval(() => {
     else posY--;
 
     if(posX > 24) posX = 0;
-    else if(posX <= 0) posX = 24;
+    else if(posX < 0) posX = 24;
     if(posY > 17) posY = 1;
     else if(posY < 1 ) posY = 17;
     
